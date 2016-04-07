@@ -1,0 +1,241 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   '-g',
+1 verbose cli   'install',
+1 verbose cli   'weinrenpm',
+1 verbose cli   '-g',
+1 verbose cli   'install',
+1 verbose cli   'weinre' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.37
+4 verbose node symlink /usr/bin/node
+5 verbose cache add [ 'weinrenpm', null ]
+6 verbose cache add name=undefined spec="weinrenpm" args=["weinrenpm",null]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: 'weinrenpm',
+7 verbose parsed url   path: 'weinrenpm',
+7 verbose parsed url   href: 'weinrenpm' }
+8 verbose cache add [ 'install', null ]
+9 verbose cache add name=undefined spec="install" args=["install",null]
+10 verbose parsed url { protocol: null,
+10 verbose parsed url   slashes: null,
+10 verbose parsed url   auth: null,
+10 verbose parsed url   host: null,
+10 verbose parsed url   port: null,
+10 verbose parsed url   hostname: null,
+10 verbose parsed url   hash: null,
+10 verbose parsed url   search: null,
+10 verbose parsed url   query: null,
+10 verbose parsed url   pathname: 'install',
+10 verbose parsed url   path: 'install',
+10 verbose parsed url   href: 'install' }
+11 verbose cache add [ 'weinre', null ]
+12 verbose cache add name=undefined spec="weinre" args=["weinre",null]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'weinre',
+13 verbose parsed url   path: 'weinre',
+13 verbose parsed url   href: 'weinre' }
+14 silly lockFile 0c5d2fe9-weinrenpm weinrenpm
+15 verbose lock weinrenpm /home/vagrant/.npm/0c5d2fe9-weinrenpm.lock
+16 silly lockFile 89fb511f-install install
+17 verbose lock install /home/vagrant/.npm/89fb511f-install.lock
+18 silly lockFile 752ed9cc-weinre weinre
+19 verbose lock weinre /home/vagrant/.npm/752ed9cc-weinre.lock
+20 silly lockFile 0c5d2fe9-weinrenpm weinrenpm
+21 silly lockFile 0c5d2fe9-weinrenpm weinrenpm
+22 silly lockFile 89fb511f-install install
+23 silly lockFile 89fb511f-install install
+24 verbose addNamed [ 'weinrenpm', '' ]
+25 verbose addNamed [ null, '*' ]
+26 silly lockFile 74a5dfc4-weinrenpm weinrenpm@
+27 verbose lock weinrenpm@ /home/vagrant/.npm/74a5dfc4-weinrenpm.lock
+28 verbose addNamed [ 'install', '' ]
+29 verbose addNamed [ null, '*' ]
+30 silly lockFile cadb329f-install install@
+31 verbose lock install@ /home/vagrant/.npm/cadb329f-install.lock
+32 silly lockFile 752ed9cc-weinre weinre
+33 silly lockFile 752ed9cc-weinre weinre
+34 silly addNameRange { name: 'weinrenpm', range: '*', hasData: false }
+35 silly addNameRange { name: 'install', range: '*', hasData: false }
+36 verbose addNamed [ 'weinre', '' ]
+37 verbose addNamed [ null, '*' ]
+38 silly lockFile c2e6926c-weinre weinre@
+39 verbose lock weinre@ /home/vagrant/.npm/c2e6926c-weinre.lock
+40 silly addNameRange { name: 'weinre', range: '*', hasData: false }
+41 verbose request where is /weinrenpm
+42 verbose request registry https://registry.npmjs.org/
+43 verbose request id 05c31ae4aed72ed9
+44 verbose url raw /weinrenpm
+45 verbose url resolving [ 'https://registry.npmjs.org/', './weinrenpm' ]
+46 verbose url resolved https://registry.npmjs.org/weinrenpm
+47 verbose request where is https://registry.npmjs.org/weinrenpm
+48 info trying registry request attempt 1 at 13:43:51
+49 http GET https://registry.npmjs.org/weinrenpm
+50 verbose request where is /install
+51 verbose request registry https://registry.npmjs.org/
+52 verbose url raw /install
+53 verbose url resolving [ 'https://registry.npmjs.org/', './install' ]
+54 verbose url resolved https://registry.npmjs.org/install
+55 verbose request where is https://registry.npmjs.org/install
+56 info trying registry request attempt 1 at 13:43:51
+57 http GET https://registry.npmjs.org/install
+58 verbose request where is /weinre
+59 verbose request registry https://registry.npmjs.org/
+60 verbose url raw /weinre
+61 verbose url resolving [ 'https://registry.npmjs.org/', './weinre' ]
+62 verbose url resolved https://registry.npmjs.org/weinre
+63 verbose request where is https://registry.npmjs.org/weinre
+64 info trying registry request attempt 1 at 13:43:51
+65 verbose etag "7XAV1DLUD0TZX50PECHC81NAV"
+66 http GET https://registry.npmjs.org/weinre
+67 http 304 https://registry.npmjs.org/weinre
+68 silly registry.get cb [ 304,
+68 silly registry.get   { date: 'Thu, 31 Mar 2016 13:43:51 GMT',
+68 silly registry.get     via: '1.1 varnish',
+68 silly registry.get     'cache-control': 'max-age=300',
+68 silly registry.get     etag: '"7XAV1DLUD0TZX50PECHC81NAV"',
+68 silly registry.get     age: '263',
+68 silly registry.get     connection: 'keep-alive',
+68 silly registry.get     'x-served-by': 'cache-lhr6329-LHR',
+68 silly registry.get     'x-cache': 'HIT',
+68 silly registry.get     'x-cache-hits': '1',
+68 silly registry.get     'x-timer': 'S1459431831.571944,VS0,VE0',
+68 silly registry.get     vary: 'Accept' } ]
+69 verbose etag https://registry.npmjs.org/weinre from cache
+70 silly addNameRange number 2 { name: 'weinre', range: '*', hasData: true }
+71 silly addNameRange versions [ 'weinre',
+71 silly addNameRange   [ '2.0.0-pre-H0WTHDO5-incubating',
+71 silly addNameRange     '2.0.0-pre-H1GCS73N-incubating',
+71 silly addNameRange     '2.0.0-pre-H3FWTQKQ-incubating',
+71 silly addNameRange     '2.0.0-pre-H41DGW8S-incubating',
+71 silly addNameRange     '2.0.0-pre-H8EOSCLN-incubating',
+71 silly addNameRange     '2.0.0-pre-H9PU2WST-incubating',
+71 silly addNameRange     '2.0.0-pre-HA5N9T49',
+71 silly addNameRange     '2.0.0-pre-HG9PLCRF',
+71 silly addNameRange     '2.0.0-pre-HH0SN197',
+71 silly addNameRange     '2.0.0-pre-HYFXM3QM',
+71 silly addNameRange     '2.0.0-pre-HZ79PDUK',
+71 silly addNameRange     '2.0.0-pre-HZO3BMNG',
+71 silly addNameRange     '2.0.0-pre-I0Z7U9OV' ] ]
+72 verbose addNamed [ 'weinre', '2.0.0-pre-I0Z7U9OV' ]
+73 verbose addNamed [ '2.0.0-pre-I0Z7U9OV', '2.0.0-pre-I0Z7U9OV' ]
+74 silly lockFile faca16ef-weinre-2-0-0-pre-I0Z7U9OV weinre@2.0.0-pre-I0Z7U9OV
+75 verbose lock weinre@2.0.0-pre-I0Z7U9OV /home/vagrant/.npm/faca16ef-weinre-2-0-0-pre-I0Z7U9OV.lock
+76 http 200 https://registry.npmjs.org/install
+77 silly registry.get cb [ 200,
+77 silly registry.get   { server: 'CouchDB/1.5.0 (Erlang OTP/R16B03)',
+77 silly registry.get     etag: '"BKO69XMUTO1DJ2FA7RJU9DPFF"',
+77 silly registry.get     'content-type': 'application/json',
+77 silly registry.get     'cache-control': 'max-age=300',
+77 silly registry.get     'content-length': '38411',
+77 silly registry.get     'accept-ranges': 'bytes',
+77 silly registry.get     date: 'Thu, 31 Mar 2016 13:43:51 GMT',
+77 silly registry.get     via: '1.1 varnish',
+77 silly registry.get     age: '30',
+77 silly registry.get     connection: 'keep-alive',
+77 silly registry.get     'x-served-by': 'cache-lhr6321-LHR',
+77 silly registry.get     'x-cache': 'HIT',
+77 silly registry.get     'x-cache-hits': '6',
+77 silly registry.get     'x-timer': 'S1459431831.563705,VS0,VE0',
+77 silly registry.get     vary: 'Accept' } ]
+78 silly addNameRange number 2 { name: 'install', range: '*', hasData: true }
+79 silly addNameRange versions [ 'install',
+79 silly addNameRange   [ '0.1.1',
+79 silly addNameRange     '0.1.2',
+79 silly addNameRange     '0.1.3',
+79 silly addNameRange     '0.1.4',
+79 silly addNameRange     '0.1.5',
+79 silly addNameRange     '0.1.6',
+79 silly addNameRange     '0.1.7',
+79 silly addNameRange     '0.1.8',
+79 silly addNameRange     '0.2.1',
+79 silly addNameRange     '0.2.2',
+79 silly addNameRange     '0.2.3',
+79 silly addNameRange     '0.2.4',
+79 silly addNameRange     '0.2.5',
+79 silly addNameRange     '0.2.6',
+79 silly addNameRange     '0.3.0',
+79 silly addNameRange     '0.4.0',
+79 silly addNameRange     '0.4.1',
+79 silly addNameRange     '0.4.2',
+79 silly addNameRange     '0.4.3',
+79 silly addNameRange     '0.4.4',
+79 silly addNameRange     '0.5.0',
+79 silly addNameRange     '0.5.1',
+79 silly addNameRange     '0.5.2',
+79 silly addNameRange     '0.5.3',
+79 silly addNameRange     '0.5.4',
+79 silly addNameRange     '0.5.5',
+79 silly addNameRange     '0.5.6',
+79 silly addNameRange     '0.5.7',
+79 silly addNameRange     '0.6.0',
+79 silly addNameRange     '0.6.1' ] ]
+80 verbose addNamed [ 'install', '0.6.1' ]
+81 verbose addNamed [ '0.6.1', '0.6.1' ]
+82 silly lockFile 9cc34ca4-install-0-6-1 install@0.6.1
+83 verbose lock install@0.6.1 /home/vagrant/.npm/9cc34ca4-install-0-6-1.lock
+84 silly lockFile f11a76d2-js-org-install-install-0-6-1-tgz https://registry.npmjs.org/install/-/install-0.6.1.tgz
+85 verbose lock https://registry.npmjs.org/install/-/install-0.6.1.tgz /home/vagrant/.npm/f11a76d2-js-org-install-install-0-6-1-tgz.lock
+86 verbose addRemoteTarball [ 'https://registry.npmjs.org/install/-/install-0.6.1.tgz',
+86 verbose addRemoteTarball   '654725a57c0548221819e4a8f64f60f544167730' ]
+87 http 404 https://registry.npmjs.org/weinrenpm
+88 silly registry.get cb [ 404,
+88 silly registry.get   { 'content-type': 'application/json',
+88 silly registry.get     'cache-control': 'max-age=0',
+88 silly registry.get     'content-length': '2',
+88 silly registry.get     'accept-ranges': 'bytes',
+88 silly registry.get     date: 'Thu, 31 Mar 2016 13:43:51 GMT',
+88 silly registry.get     via: '1.1 varnish',
+88 silly registry.get     age: '0',
+88 silly registry.get     connection: 'keep-alive',
+88 silly registry.get     'x-served-by': 'cache-lhr6322-LHR',
+88 silly registry.get     'x-cache': 'MISS',
+88 silly registry.get     'x-cache-hits': '0',
+88 silly registry.get     'x-timer': 'S1459431831.567707,VS0,VE175' } ]
+89 silly lockFile 74a5dfc4-weinrenpm weinrenpm@
+90 silly lockFile 74a5dfc4-weinrenpm weinrenpm@
+91 info retry fetch attempt 1 at 13:43:51
+92 verbose fetch to= /tmp/npm-7632-V6sfS3VN/registry.npmjs.org/install/-/install-0.6.1.tgz
+93 http GET https://registry.npmjs.org/install/-/install-0.6.1.tgz
+94 silly lockFile faca16ef-weinre-2-0-0-pre-I0Z7U9OV weinre@2.0.0-pre-I0Z7U9OV
+95 silly lockFile faca16ef-weinre-2-0-0-pre-I0Z7U9OV weinre@2.0.0-pre-I0Z7U9OV
+96 silly lockFile c2e6926c-weinre weinre@
+97 silly lockFile c2e6926c-weinre weinre@
+98 http 200 https://registry.npmjs.org/install/-/install-0.6.1.tgz
+99 silly lockFile f11a76d2-js-org-install-install-0-6-1-tgz https://registry.npmjs.org/install/-/install-0.6.1.tgz
+100 silly lockFile f11a76d2-js-org-install-install-0-6-1-tgz https://registry.npmjs.org/install/-/install-0.6.1.tgz
+101 silly lockFile 9cc34ca4-install-0-6-1 install@0.6.1
+102 silly lockFile 9cc34ca4-install-0-6-1 install@0.6.1
+103 silly lockFile cadb329f-install install@
+104 silly lockFile cadb329f-install install@
+105 error 404 Not Found
+105 error 404
+105 error 404 'weinrenpm' is not in the npm registry.
+105 error 404 You should bug the author to publish it
+105 error 404
+105 error 404 Note that you can also install from a
+105 error 404 tarball, folder, or http url, or git url.
+106 error System Linux 3.2.0-23-generic-pae
+107 error command "/usr/bin/node" "/usr/bin/npm" "-g" "install" "weinrenpm" "-g" "install" "weinre"
+108 error cwd /home/vagrant/checkin
+109 error node -v v0.10.37
+110 error npm -v 1.4.28
+111 error code E404
+112 verbose exit [ 1, true ]

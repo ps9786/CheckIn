@@ -1,0 +1,2 @@
+/home/vagrant/checkin/platforms/android/build/intermediates/classes/debug
+/home/vagrant/checkin/platforms/android/build/intermediates/pre-dexed/debug/classes-f63ca120c8ef28e02f8ed1ae356b2093e7e87914.jar

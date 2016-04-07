@@ -1,0 +1,23 @@
+{
+  "name": "checkin",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ratchet": "^2.0.2",
+    "handlebars": "^4.0.5",
+    "fastclick": "^1.0.6",
+    "jquery": "^2.2.2",
+    "ember": "~1.6",
+    "ember-data": "~1.0.0-beta.8"
+  }
+}

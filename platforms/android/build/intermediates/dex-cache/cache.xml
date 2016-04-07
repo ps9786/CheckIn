@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/vagrant/checkin/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="1f660a98fa20b8cc987e9c6037acc7b84e77770e">
+        <dex dex="/home/vagrant/checkin/platforms/android/build/intermediates/pre-dexed/debug/classes-f63ca120c8ef28e02f8ed1ae356b2093e7e87914.jar" />
+    </item>
+
+</items>
